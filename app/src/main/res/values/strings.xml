@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Lomba Tujuhbelasan</string>
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+    <string name="lihat_video">Lihat Video</string>
+    <string name="nama">Nama</string>
+    <string name="ahmad_saifur_ridlo">Ahmad Saifur Ridlo</string>
+    <string name="kota_asal">Kota Asal</string>
+    <string name="kab_sidoarjo_jawa_timur">Kab.Sidoarjo,Jawa Timur</string>
+    <string name="pekerjaan">Pekerjaan</string>
+    <string name="mahasiswa">Mahasiswa</string>
+    <string name="coding">Coding</string>
+    <string name="java_n_kotlin_n_dart_n_php_n_javascript">- Java\n - Kotlin\n - Dart\n - PHP\n - Javascript</string>
+    <string name="other_social_media">Other Social Media</string>
+    <string name="saifurridho1208_gmail_com">saifurridho1208@gmail.com</string>
+    <string name="github_com_asyarialmuslimin">github.com/asyarialmuslimin</string>
+    <string name="saifur_ridlo">\@saifur.ridlo</string>
+</resources>

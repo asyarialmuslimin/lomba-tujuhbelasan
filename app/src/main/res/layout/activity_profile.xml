@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView android:layout_width="match_parent" android:layout_height="match_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ProfileActivity"
+        android:orientation="vertical" android:padding="16dp" android:gravity="center">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center">
+        <de.hdodenhof.circleimageview.CircleImageView android:layout_width="300dp" android:layout_height="300dp" android:src="@drawable/fotoh"/>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:layout_marginTop="10dp">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+            <TextView android:layout_width="0dp" android:layout_weight="2" android:layout_height="wrap_content" android:text="@string/nama" style="@style/biodata"/>
+            <TextView android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content" android:gravity="end" android:text=":  " style="@style/biodata"/>
+            <TextView android:layout_width="0dp" android:layout_weight="4" android:layout_height="wrap_content" android:text="@string/ahmad_saifur_ridlo" style="@style/biodata"/>
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+            <TextView android:layout_width="0dp" android:layout_weight="2" android:layout_height="wrap_content" android:text="@string/kota_asal" style="@style/biodata"/>
+            <TextView android:layout_width="0dp" android:layout_weight="1" android:gravity="end" android:layout_height="wrap_content" android:text=":  " style="@style/biodata"/>
+            <TextView android:layout_width="0dp" android:layout_weight="4" android:layout_height="wrap_content" android:text="@string/kab_sidoarjo_jawa_timur" style="@style/biodata"/>
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+            <TextView android:layout_width="0dp" android:layout_weight="2" android:layout_height="wrap_content" android:text="@string/pekerjaan" style="@style/biodata"/>
+            <TextView android:layout_width="0dp" android:layout_weight="1" android:gravity="end" android:layout_height="wrap_content" android:text=":  " style="@style/biodata"/>
+            <TextView android:layout_width="0dp" android:layout_weight="4" android:layout_height="wrap_content" android:text="@string/mahasiswa" style="@style/biodata"/>
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+            <TextView android:layout_width="0dp" android:layout_weight="2" android:layout_height="wrap_content" android:text="@string/coding" style="@style/biodata"/>
+            <TextView android:layout_width="0dp" android:layout_weight="1" android:gravity="end" android:layout_height="wrap_content" android:text=":  " style="@style/biodata"/>
+            <TextView android:layout_width="0dp" android:layout_weight="4" android:layout_height="wrap_content" android:text="@string/java_n_kotlin_n_dart_n_php_n_javascript" style="@style/biodata"/>
+        </LinearLayout>
+
+        <LinearLayout android:layout_marginTop="5dp" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:gravity="center">
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/other_social_media" android:textAlignment="center" style="@style/biodata" android:textStyle="bold"/>
+            <Button android:layout_margin="5dp" android:id="@+id/btnEmail" android:layout_width="match_parent" android:layout_height="wrap_content" android:background="@drawable/round_button_gmail" android:drawableLeft="@drawable/ic_gmail_logo" android:paddingLeft="20dp" android:text="@string/saifurridho1208_gmail_com" android:textColor="@android:color/white"/>
+            <Button android:layout_margin="5dp" android:id="@+id/btnGithub" android:layout_width="match_parent" android:layout_height="wrap_content" android:background="@drawable/round_button_github" android:drawableLeft="@drawable/ic_github_logo" android:paddingLeft="20dp" android:text="@string/github_com_asyarialmuslimin" android:textColor="@android:color/white"/>
+            <Button android:layout_margin="5dp" android:id="@+id/btnIg" android:layout_width="match_parent" android:layout_height="wrap_content" android:background="@drawable/round_button_ig" android:drawableLeft="@drawable/ic_instagram_logo" android:paddingLeft="20dp" android:paddingRight="20dp" android:text="@string/saifur_ridlo" android:textColor="@android:color/white"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
+</ScrollView>
